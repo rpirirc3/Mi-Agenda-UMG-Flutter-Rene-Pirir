@@ -1,17 +1,38 @@
-# tarea_fluter_rene_pirir
+# Mi Agenda UMG - Flutter
 
-A new Flutter project.
+Aplicación desarrollada en Flutter como parte del curso de Programación II de la Universidad Mariano Gálvez de Guatemala.
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
+Mi Agenda UMG es una aplicación sencilla para llevar un control básico de actividades académicas.
 
-A few resources to get you started if this is your first Flutter project:
+El proyecto fue desarrollado tomando como referencia el material proporcionado en la tarea, aplicando cambios propios tanto en la interfaz como en el comportamiento de la aplicación.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Personalizaciones realizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Cambio de textos y títulos de la aplicación.
+- Diseño personalizado con colores azul índigo y naranja.
+- Uso de iconos relacionados con actividades académicas.
+- Contador de tareas completadas.
+- Botón "Completar tarea".
+- Botón adicional "Mostrar recordatorio".
+- Botón "Reiniciar contador".
+- Mensajes mediante SnackBar para informar al usuario de las acciones realizadas.
+
+## Funcionamiento
+
+El botón **Completar tarea** incrementa el número de tareas completadas.
+
+El botón **Mostrar recordatorio** muestra un mensaje indicando que se deben revisar las actividades pendientes de Programación II.
+
+El botón **Reiniciar contador** coloca nuevamente el contador en cero.
+
+## Ejecución
+
+La aplicación fue ejecutada y probada correctamente utilizando Flutter Web con Google Chrome.
+
+Para ejecutar el proyecto:
+
+```bash
+flutter pub get
+flutter run -d chrome
