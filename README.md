@@ -1,4 +1,9 @@
 # Mi Agenda UMG - Flutter
+## Evidencias de funcionamiento
+
+Las capturas de ejecución y personalización de la aplicación se encuentran en el siguiente documento:
+
+[Ver documento de evidencias en PDF](Desarrollo%20y%20Personalización%20de%20Aplicación%20con%20Flutter%20Rene%20Pirir.pdf)
 
 Aplicación desarrollada en Flutter como parte del curso de Programación II de la Universidad Mariano Gálvez de Guatemala.
 
